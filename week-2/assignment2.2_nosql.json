@@ -1,0 +1,50 @@
+"customer": {
+    "_id": "012345",
+    "first_name": "Jon",
+    "last_name": "Smith",
+    "date_of_birth": "08/15/1978",
+    "user_name": "jsmith42",
+    "invoice": [
+        {
+            "_id": "4325" ,
+            "date_created": "10/10/2021",
+            "date_shipped": "10/12/2021",
+            "subtotal": "100.00",
+            "tax": "10.00",
+            "total": "110.00",
+            "line_item": [
+                {
+                    "_id": "321",
+                    "name": "Wheat",
+                    "price": "10.00",
+                    "quantity": "10",
+                }
+            ]
+        }
+        {
+            "_id": "4236",
+            "date_created": "10/10/2021",
+            "date_shipped": "10/12/2021",
+            "subtotal": "200.00",
+            "tax": "20.00",
+            "total": "220.00",
+            "line_item": [
+                {
+                    "_id": "322",
+                    "name": "Brick",
+                    "price": "10.00",
+                    "quantity": "10",
+                }
+                {
+                    "_id": "323",
+                    "name": "Sheep",
+                    "price": "10.00",
+                    "quantity": "10",
+                }
+            ]
+        }
+    ]
+}
+    
+  
+   

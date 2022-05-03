@@ -1,0 +1,23 @@
+"publisher": {
+    "_id": "012345",
+    "publisher_name": "Cemetery Dance",
+    "publisher_code": "10014",
+    "publisher_address": "132-B Industry Lane",
+    "book": [
+        {
+            "_id": "4325" ,
+            "book_isbn": "978-1-58767-507-2",
+            "book_name": "Salem's Lot",
+            "book_price": "60.00",
+            "author": [
+                {   
+                    "_id": "321",
+                    "author_first_name": "Stephen",
+                    "author_last_name": "King",
+                    "author_phone": "(555) 555-5555",
+                    "author_email": "stephen.king@gmail.com"
+                }  
+            ]
+        }
+    ]
+}

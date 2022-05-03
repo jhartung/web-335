@@ -1,0 +1,11 @@
+"user": {
+"birthdate": "<YYYY-mm-dd>",
+"roles": [
+    {"operator": 1},
+    {"admin": 1}
+    ],
+"dependents": [
+    {"firstName": "John", "lastName": "Stamos"},
+    {"firstName": "Leroy", "lastName": "Jenkins"}
+    ]
+}

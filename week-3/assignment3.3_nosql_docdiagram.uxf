@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>370</y>
+      <w>300</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>AUTHOR
+--
+{
+    "author_first_name": "Stephen",
+    "author_last_name": "King",
+    "author_phone": "(555) 555-5555",
+    "author_email": "stephen.king@gmail.com"
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>450</x>
+      <y>100</y>
+      <w>300</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>BOOK
+--
+{
+    "book_isbn": "978-1-58767-507-2",
+    "book_name": "Salem's Lot",
+    "book_price": "60.00"
+}
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>100</y>
+      <w>300</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>PUBLISHER DOCUMENT
+--
+{
+    "publisher_name": "Cemetery Dance",
+    "publisher_code": "10014",
+    "publisher_address": "132-B Industry Lane"
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>140</y>
+      <w>130</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+
+
+r2=1.*
+</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>220</y>
+      <w>50</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+r1=1.*
+
+
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+</diagram>

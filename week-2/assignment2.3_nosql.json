@@ -1,0 +1,28 @@
+"student": {
+    "_id": "0781923",
+    "first_name": "John",
+    "last_name": "Doe",
+    "enroll": [
+        {
+            "_id": "X02352",
+            "grade": "92",
+            "class": [
+                {
+                "_id": "STUFF235",
+                "name": "Intro to Stuff",
+                }
+            ]
+        }
+        {
+            "_id": "X02353",
+            "grade": "94",
+            "class": [
+                {
+                    "_id": "STUFF335",
+                    "name": "Advanced Stuff",
+                }
+            ]
+        }
+    ]
+}
+       

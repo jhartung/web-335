@@ -1,0 +1,48 @@
+"user": {
+    "_id": "012345",
+    "first_name": "Jon",
+    "last_name": "Smith",
+    "date_of_birth": "08/15/1978",
+    "user_name": "jsmith42",
+    "role": [
+        {
+            "_id": "4325" ,
+            "name": "circulationSupervisor",
+            "permission": [
+                {   
+                    "_id": "321",
+                    "name": "override"
+                },
+                {
+                    "_id": "322",
+                    "name": "updateDueDate"
+            
+                },
+                {
+                    "_id": "323",
+                    "name": "renewItem"
+            
+                }
+            ]
+        },
+        {
+            "_id": "4326" ,
+            "name": "circulationClerk",
+            "permission": [
+                {
+                    "_id": "324",
+                    "name": "circulationFunctions"
+            
+                },
+                {
+                    "_id": "325",
+                    "name": "payFine"
+            
+                }
+        
+            ]
+        }
+    ]
+}
+    
+  
